@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hurts Development - Ergo website">
+    <meta name="author" content="Lachlan Hurst">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Hurts Development</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="app/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Custom styles for this template -->
+    <!--  <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet"> -->
+    <link href="carousel.css" rel="stylesheet">
+
+  <style id="holderjs-style" type="text/css"></style></head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"><img class="heading-icon" src="app/img/hurtsergo_40.png"></img> &nbsp <b>Hurts Ergo</b></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="app/img/kickr_in_use.png">
+          <div class="container">
+            <div class="carousel-caption carousel-innerdiv">
+              <h1>KICKR on, press play, pedal. . . HARD</h1>
+              <p>Hurts Ergo <span class="text-muted">is a lightweight app for getting the most out of your KICKR Trainer. No subscriptions, no signup, no training plans.</span></p>
+              <p>
+                <a class="btn btn-lg btn-default" href="#intro" role="button"> 
+                  Learn more
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="app/img/hurtsergo_charts_lowbrightness.png">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Over 600 workouts to choose from</h1>
+              <p><span class="text-muted">We've teamed up with</span> ErgDB <span class="text-muted">to provide access to over 600 unique workouts, each workout is scaled to meet your performance requirements. </span></p>
+              <p>
+                <a class="btn btn-lg btn-default" href="#ergdb" role="button">
+                  Learn more
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <div class="row featurette">
+        <div id="intro" class="col-md-7">
+          <h2 class="featurette-heading">Hurts Ergo. <span class="text-muted">Power based interval training for your iPhone and iPad.</span></h2>
+          <p class="lead">Structured interval training is key to generating significant improvements in your cycling performance. Hurts Ergo offers a series of basic workouts to get going on your indoor trainer, once mastered there's access to the online ErgDB library containing over 600 unique workouts. </p>
+          <a class="btn center-block" href="https://itunes.apple.com/app/id877234518" role="button"> 
+            <img src="app/img/Download_on_the_App_Store_Badge_US-UK_270x80.png"></img> 
+          </a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" alt="Hurts Ergo, now on iPhone and iPad" src="app/img/three_phones.png">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div id="ergdb" class="col-lg-4">
+          <img class="img-rounded circle-images" alt="ErgDB" src="app/img/ergDb.png">
+          <h2>ErgDB</h2>
+          <p>ErgDB, created by <a href="http://www.73summits.com/">73 Summits</a>, provides a place for users to create and share PowerAgent and Erg bicycle training workouts. Workouts use a percentage of FTP as watts, allowing users to use their own FTP when generating workouts. Hurts Ergo is able to draw on ErgDB workouts through its API providing access to over 600 workouts.</p>
+          <p><a class="btn btn-default" href="http://www.73summits.com/ergdb/" role="button">View ErgDB »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div id="kickr" class="col-lg-4">
+          <img class="img-rounded circle-images" alt="KICKR" src="app/img/KICKR.png">
+          <h2>Wahoo Fitness KICKR</h2>
+          <p>The KICKR has an Erg mode, in this mode a target power output is set and the KICKR maintains this irrespective of rider speed and cadence. It makes for one solid workout, provided you can finish what you start.  It's this mode that Hurts Ergo relies on, the Erg mode target power is varied based on the workout you've selected.</p>
+          <p><a class="btn btn-default" href="http://au.wahoofitness.com/devices/kickr.html" role="button">Learn more »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-rounded circle-images" alt="iPhone and iPad" src="app/img/ipadiphone.png">
+          <h2>Optimised for iPhone and iPad</h2>
+          <p>The increased screen real estate of the iPad really helps when navigating some of the more complex workouts.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div  class="col-md-5 ">
+          <div id="crossfade" style="height:470px">
+            <img class="featurette-image img-responsive" src="app/img/skip_01.png" />
+            <img class="featurette-image img-responsive" src="app/img/skip_02.png" />
+            <img class="featurette-image img-responsive" src="app/img/skip_03.png" />
+            <img class="featurette-image img-responsive" src="app/img/skip_04.png" />
+            <img class="featurette-image img-responsive" src="app/img/skip_05.png" />
+            <img class="featurette-image img-responsive" src="app/img/skip_06.png" />
+          </div>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Skip over the <span class="strikethrough">hard</span> err, boring parts.</h2>
+          <p class="lead">With the whole workout mapped out in front of you it's easy to see where the fun starts. Skip to/over/back the parts of the workout you want to focus on by tapping the workout chart.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Share <span class="text-muted">and</span> Save <span class="text-muted">your data</span></h2>
+          <p class="lead">Through an optional In App Purchases (IAP) you can choose to save and/or share the workout data recorded by Hurts Ergo.  The power data is recorded as reported by a connected KICKR trainer, this data is then saved to a <a href="http://www.thisisant.com/resources/fit">Flexible and Interoperable Data Transfer (FIT)</a> based file as used by Garmin devices. This format is widely supported across a number of fitness platforms.</p>
+          <p class="lead">Should you wish, the workout can be directly uploaded to Strava. You'll be prompted to login to your account on the first upload, but after that Hurts Ergo maintains an authentication token to upload data on your behalf (no login credential are entered into, or stored by Hurts Ergo).</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" alt="Hurts Ergo, now on iOS" src="app/img/share.png">
+        </div>
+      </div>
+
+      <hr >
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="featurette-heading">Questions</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-7">
+          <h2>Can I create my own workouts? <span class="text-muted">Short answer, Yes.</span></h2>
+          <p class="lead">All workouts used within Hurts Ergo are defined using <code>erg</code> files.  I couldn't track down a specification for the file format, but in reality the format is simple enough that anyone should be able to pull one together.</p>
+          <h2>How can I use my own workouts?</h2>
+          <p class="lead">So you've created a workout, or have a library of existing workouts you wish to use in Hurts Ergo; there's two options here. The first and easiest is to upload the workout to <a href="http://www.73summits.com/ergdb/">ErgDB</a>, it'll then be accessible along with other <a href="http://www.73summits.com/ergdb/">ErgDB</a> workouts.</p>
+          <p class="lead">The second option is to use <a href="http://support.apple.com/kb/HT4094">iTunes file sharing</a>. Hurts Ergo creates two folders on your iOS device; <span class="text-muted">Favourite workouts</span>, and <span class="text-muted">Saved workouts</span>.  By copying your <code>erg</code> files into the <span class="text-muted">Favourite workouts</span> folder you'll be able to access them from the Favourite workout category within Hurts Ergo.</p>
+          <img class="img-responsive hover-image" src="app/img/itunes_file_sharing.png"></img>
+        </div>
+        <div class="col-md-5">
+          <h2>Example <code>erg</code> file</h2>
+          <p class="lead">The following example will set the workout to 70% of the users FTP for the first 5 minutes, then ramping up to a full 10 minutes at FTP, before dropping down to 60% FTP for the final 5 minutes.</p>
+          <pre>[COURSE HEADER]
+FTP=100
+DESCRIPTION=Example erg file
+FILE NAME=Example
+MINUTES  WATTS
+[END COURSE HEADER]
+
+[COURSE DATA]
+0       70
+5       70
+5       100
+15      100
+15      60
+20      60
+
+[END COURSE DATA]
+          </pre>
+          <p class="bg-info info-padding"><b>Note:</b> <code>erg</code>files are defined using absolute values, not percentages as described in this example. Hurts Ergo scales the values defined in any workout by the ratio between FTP you've specified in the user interface and that specified in the <code>erg</code> file itself.</p>
+        <a href="sample.erg">Link to sample.erg</a>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>How do I connect my KICKR?</h2>
+          <p class="lead">Once established the Bluetooth connection to the KICKR is quite solid, however when making the connection there's a few things to be aware of:</p>
+          <ol class="lead">
+            <li>Ensure your KICKR is not connected to another device. <span class="text-muted">The KICKR will only connect to a single device using BTLE, a KICKR will not be detected when scanning if it is connected to another device (iPhone, iPad, laptop, etc).</span></li>
+            <li>Other Apps connecting to the KICKR may prevent the scan from initialising. <span class="text-muted"> If you receive a "Failed to initiate device discovery..." message from Hurts Ergo it's likely another App on your phone is already connected to the KICKR. Disconnect or close the other app and restart the scan.</li>
+            <li>Make sure your KICKR is turned on. <span class="text-muted">I've done this at least once myself.</span></li>
+            <li>Still having troubles? <span class="text-muted">Get in contact via <a href="mailto:support@hurtsdevelopment.com">support</a>.</span></li>
+          </ol>
+ 
+        </div>
+ 
+      </div>
+
+
+
+
+
+    <hr >
+
+      <div class="row featurette">
+        <div class="col-md-6">
+          <h2>Compatibility</h2>
+          <ul class="lead">
+            <li>iOS 7.0+</li>
+            <li>Bluetooth Low Energy (BTLE) required
+              <ul>
+                <li>iPhone - 4s, 5, 5c and 5s</li>
+                <li>iPod Touch - Fifth generation</li>
+                <li>iPad - Third and forth generation, Air</li>
+                <li>iPad Mini - First and second generation</li>
+              </ul>
+            </li>
+          </ul>
+          <p class="lead">Unfortunately the ANT+ dongle is not supported at this time, hence the requirement that your iOS device supports BTLE.  Support may be implemented if this turns out to be an issue for many users, so please get in contact if you'd like to see this happen.</p>
+        </div>
+        <div id="about" class="col-md-6">
+          <h2>What's next?</h2>
+          <p class="lead">Hurts Ergo came about as I wanted something simple to run the Wahoo Fitness KICKR through its paces using nothing more than an iPhone/iPad. There's several applications out there that offer a host of tailored training plans and analytics well above that provided by Hurts Ergo, this is unlikely to ever change. That said, if there's something simple you believe would be a great addition I'd love to hear about it.</p>
+          <p class="lead">The KICKR itself is a great device, and I think it's full potential is yet to be realised. There's a few ideas kicking round; less training focused, more fun. Be sure to checkout what the guys over at <a href="http://www.globacore.com/paperdude-vr/"> Globacore</a> have done.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="contact" class="row featurette">
+        <div class="col-md-6">
+          <h2>Contact</h2>
+          <ul class="lead">
+            <li>For any issues, feedback, or feature requests please contact <a href="mailto:support@hurtsdevelopment.com">support@hurtsdevelopment.com</a></li>
+            <li>For anything else:
+              <ul>
+                <li>Twitter - <a href="http://twitter.com/lachlanhurst">@lachlanhurst</a></li>
+                <li>Instagram - <a href="http://instagram.com/lachlanhurst">lachlanhurst</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <h2>Credits</h2>
+          <ul class="lead">
+            <li>Screen mockups generated by <a href="http://mockuphone.com/">mockuphone.com</a></li>
+            <li>Icons sourced from <a href="http://thenounproject.com/">the Noun Project</a>
+              <ul>
+                <li>Ios designed by Evangeline La from the Noun Project</li>
+                <li>Touch designed by Lemon Liu from the Noun Project</li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row featurette">
+        <div class="col-md-12">
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          <span class="glyphicon glyphicon-plus"></span> &nbsp Privacy Policy
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+<p>This Privacy Policy was last modified on May 21, 2014.</p>
+<p>Hurts Ergo ("us", "we", or "our") operates www.hurtsdevelopment.com (the "Site") and the Hurts Ergo iOS app. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site and the App.</p>
+<p>We use your Personal Information only for improving Hurts Ergo. By using the Site and the iOS App, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at www.hurtsdevelopment.com.</p>
+
+<p><strong>Log Data</strong><br />Like many site operators, we collect information that your browser sends whenever you visit our Site ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
+
+<p><strong>Cookies</strong><br />Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.</p>
+<p>Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.</p>
+
+<p><strong>Security</strong><br />The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+
+<p><strong>Links To Other Sites</strong><br />Our Site may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>Hurts Ergo has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party sites or services.</p>
+
+<p><strong>Changes To This Privacy Policy</strong><br />Hurts Ergo may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Site. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+<p><strong>Contact Us</strong><br />If you have any questions about this Privacy Policy, please contact us.</p>
+
+<p style="font-size: 85%; color: #999;">Generated with permission from <a href="http://termsfeed.com/privacy-policy/generator/" title="TermsFeed" style="color: #999; text-decoration: none;">TermsFeed Generator</a>.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="./index.html">Back to top</a></p>
+        <p>© 2014 Lachlan Hurst. </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="app/components/jquery/dist/jquery.min.js"></script>
+    <script src="app/components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app/components/cycle/jquery.cycle.lite.js"></script>
+    <!--<script src="app/components/bootstrap/dist/css/docs.min.js"></script>-->
+    <script type="text/javascript">
+    $(function() {
+      $('#crossfade').cycle();
+    });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50579603-2', 'hurtsdevelopment.com');
+      ga('send', 'pageview');
+
+  </script>
+
+</body><style type="text/css">embed[type*="application/x-shockwave-flash"],embed[src*=".swf"],object[type*="application/x-shockwave-flash"],object[codetype*="application/x-shockwave-flash"],object[src*=".swf"],object[codebase*="swflash.cab"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"],object[classid*="d27cdb6e-ae6d-11cf-96b8-444553540000"],object[classid*="D27CDB6E-AE6D-11cf-96B8-444553540000"]{	display: none !important;}</style></html>

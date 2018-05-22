@@ -1,0 +1,31 @@
+{
+  "name": "HurtsErgo",
+  "version": "1.0.0",
+  "authors": [
+    "Lachlan Hurst <lachlan.hurst@gmail.com>"
+  ],
+  "description": "Website for HurtsErgo iOS App",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "KICKR",
+    "iOS",
+    "Hurts",
+    "Ergo",
+    "HurtsErgo"
+  ],
+  "license": "Other",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}

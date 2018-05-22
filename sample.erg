@@ -1,0 +1,17 @@
+[COURSE HEADER]
+FTP=100
+DESCRIPTION=Example erg file
+FILE NAME=Example
+MINUTES  WATTS
+[END COURSE HEADER]
+
+[COURSE DATA]
+0       70
+5       70
+5       100
+15      100
+15      60
+20      60
+
+[END COURSE DATA]
+
